@@ -17,7 +17,6 @@ def calculateLargest(upperBound):
 for i in range(1000000):
     largestA = int(calculateLargest(i))
     sum += largestA
-    #print ("Largest:" + str(largestA) + " " + "i:" + str(i))
     if i %100 == 0:
         print(i)
 
